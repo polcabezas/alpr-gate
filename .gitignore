@@ -1,0 +1,12 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+plates.json
+# Cached ONNX model downloads from Fast-ALPR
+*.onnx
+.cache/
+# Diagnostic artifacts
+debug-frame.jpg
+smoketest-out/
